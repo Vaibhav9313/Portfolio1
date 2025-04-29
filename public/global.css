@@ -1,0 +1,94 @@
+/* global.css */
+
+/* Reset and Base Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Links */
+a {
+  color: #6200ea;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  color: #bb86fc;
+  transform: translateY(-2px);
+}
+
+/* Typography */
+h1, h2, h3 {
+  font-weight: 700;
+  color: #ffffff;
+  margin: 1rem 0;
+}
+
+p {
+  color: #d4d4d4;
+  margin: 1rem 0;
+}
+
+/* Form Elements */
+input, button, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0.6em 1em;
+  margin: 0.5em 0;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+input:focus, button:focus, select:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(103, 58, 183, 0.5);
+}
+
+button {
+  background: #6200ea;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7c4dff;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background: #b3b3b3;
+  cursor: not-allowed;
+}
+
+/* Layout Utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
