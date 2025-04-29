@@ -11,17 +11,17 @@
 
     const projects = [
         {
-            name: 'All-in-One Calculator',
+            name: 'CalcMaster',
             description: 'A versatile calculator app with multiple functionalities, including scientific, Loan, and currency conversion.',
             link: 'https://calc-master-nu.vercel.app/',
         },
         {
-            name: 'Stocks App',
+            name: 'StockZa',
             description: 'An intuitive app to track and analyze stock market trends with real-time data visualization.',
             link: 'https://stock-za.vercel.app/',
         },
         {
-            name: 'Finance App',
+            name: 'Fin Dash',
             description: 'A personal finance management tool to track expenses, budgets, and savings goals.',
             link: 'https://finance-coral-ten.vercel.app/',
         },
