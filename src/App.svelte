@@ -37,7 +37,7 @@
     ];
 
     const contact = {
-        email: 'jadhavaibhav2704@gmail.com',
+        email: 'vhjadhav9313@gmail.com',
         phone: '+91 7972985106',
         location: 'Trivandrum, India',
     };
