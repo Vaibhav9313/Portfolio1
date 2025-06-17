@@ -4,7 +4,7 @@
         role: 'Frontend Developer',
         location: 'Pune, India',
         description:
-            'Frontend Developer with around 3+ years of experience. I specialize in building modern web applications using HTML, CSS, JavaScript, Svelte, and React. My expertise lies in creating responsive and user-friendly interfaces.',
+            'Frontend Developer with around 3.5+ years of experience. I specialize in building modern web applications using HTML, CSS, JavaScript, Svelte, and React. My expertise lies in creating responsive and user-friendly interfaces.',
 			interests:
     'When I’m not coding, I enjoy reading fiction novels, exploring nature on hiking trips, and experimenting with photography. In my free time, I also love watching tech videos and learning about the latest developments in web technologies and design trends.',
     };
